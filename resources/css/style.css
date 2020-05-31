@@ -1,0 +1,102 @@
+/*MESSING WITH AMIMATE.CSS ANIMATION SPEEDS*/
+.fadeInDown{
+    -webkit-animation: fadeInDown 2s;
+    animation: fadeInDown 2s; 
+}
+.fadeIn2{
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s; 
+}
+video {
+  width: 100%;
+  height: auto;
+    max-height: 40%;
+}
+/*MAIN CONTAINER ON INDEX*/
+.helloWorld{
+    background-color: red;
+    height: 100vh;
+}
+.helloWorld h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 10vw;
+    margin: 0 auto;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+.videos p{
+    display: none;
+}
+
+.myContainer{
+    text-align: center;
+}
+.myContainer .row{
+    margin-top: 10px;
+}
+.myContainer .col-sm-3{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.myContainer .col-sm-6{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.myContainer .col-sm-4{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.myContainer .blue{
+    background-color: blue;
+    color:white;
+    border: 1px solid white;
+}
+
+
+/*MORE CSS*/
+.myNewClass{
+    
+}
+#myElementID{
+    
+}
+
+
+/*MEDIA QUERIES*/
+
+/*LARGE LAPTOPS AND LARGER*/
+@media(min-width:1920px){
+    
+}
+/*MEDIUM LAPTOPS AND SMALLER*/
+@media(max-width:1600px){
+    
+}
+/*IPAD PRO AND SMALLER*/
+@media(max-width:1024px){
+    
+}
+/*IPAD*/
+@media(max-width:768px){
+    
+}
+/*SMALL TABLETS, REGULAR SMARTPHONES*/
+/*ALSO WHERE .COL-SM-# BREAKS DOWN TO MOBILE*/
+@media(max-width:767px){
+    
+}
+/*SMALLER SMARTPHONES*/
+@media(max-width:450px){
+    
+}
