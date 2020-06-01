@@ -29,6 +29,9 @@ h2{
     font-size: 20px;
     text-align: center;
 }
+.videos h2{
+    font-size: 16px;
+}
 p{
     font-size: 16px;
 }
